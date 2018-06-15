@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  border: 1px solid black;
+}
+
+td img {
+  height: 150px;
+}
+
+.eliminated {
+  background-color: rgba(255, 0, 0, 0.8);
+  width: 100%;
+}
+
+.eliminated td:last-child {
+  background-image: url("https://i.pinimg.com/originals/b1/47/8f/b1478fad336560674089bd1e43ed8def.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
