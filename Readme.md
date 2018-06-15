@@ -1,6 +1,6 @@
 # Checkpoint 3
 
-## Create a react app nnamed checkpoint-3
+## Create a react app named checkpoint-3
 
 ## Create components needed to display a list
 
@@ -25,5 +25,5 @@ const targets = [
         }
     ]
 ```
-tus from alive to dead)
+- display name, image and a kill button that turns status from alive to dead
 - A dead target has no button and a different style (dead icon / text styles)
